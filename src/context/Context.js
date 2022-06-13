@@ -3,7 +3,6 @@ import faker from "faker";
 import { cartReducer } from "./Reducer";
 
 const Cart = createContext();
-
 const Context = ({children}) => {
     
     const products = [...Array(20)].map(()=>({
